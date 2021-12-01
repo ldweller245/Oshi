@@ -1,0 +1,7 @@
+{"msg":"init","dagFile":"artifacts\\tundra.dag","targets":[]}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"all_tundra_nodes","enqueuedNodeIndex":0}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteResponseFile artifacts/rsp/15606930844763137375.rsp","enqueuedNodeIndex":1,"enqueueingNodeAnnotation":"all_tundra_nodes","enqueueingNodeIndex":0}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"Il2Cpp C:/Users/sk8du/OneDrive/Documents/Applications/Game Jam2021/Library/Il2cppBuildCache/WebGL/Native/build.bc","enqueuedNodeIndex":2,"enqueueingNodeAnnotation":"all_tundra_nodes","enqueueingNodeIndex":0}
+{"msg":"newNode","annotation":"WriteResponseFile artifacts/rsp/15606930844763137375.rsp","index":1}
+{"msg":"noderesult","annotation":"WriteResponseFile artifacts/rsp/15606930844763137375.rsp","index":1,"exitcode":0}
+{"msg":"newNode","annotation":"Il2Cpp C:/Users/sk8du/OneDrive/Documents/Applications/Game Jam2021/Library/Il2cppBuildCache/WebGL/Native/build.bc","index":2}

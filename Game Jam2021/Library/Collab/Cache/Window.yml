@@ -14,20 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/ArtWork/Oshi/Walking Away.png.meta
-    - Assets/ArtWork/Oshi/Walking Base.png.meta
-    - Assets/ArtWork/Sprites/UI/PausePanelAnim.anim
-    - Assets/ArtWork/Sprites/UI/PausePanelAnimClose.anim
-    - Assets/Audio/Music/Forest.mp3
-    - Assets/Audio/Music/Forest.mp3.meta
-    - Assets/Prefabs/Dialogue.prefab
-    - Assets/Scenes/Levels/Cave_Scene.unity
-    - Assets/Scenes/Levels/Forest.unity
-    - Assets/Scenes/Levels/Sewer_Scene.unity
-    - Assets/Scripts/Sound/Audiomanager.cs
-    - Assets/UNITYDEMO/Prefabs/MainCamera_IsometricPixelPerfect.prefab
+    - ProjectSettings/ProjectSettings.asset
     - 
-    m_Values: 00000000000000000000000000
+    m_Values: 0000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

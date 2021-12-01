@@ -4,16 +4,18 @@ using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
 {
+
     [SerializeField] private GameObject player;
     [SerializeField] private int followDistance;
     private List<Vector3> storedPositions;
     Vector3 defaultScale;
+
     private void Start()
     {
         enabled = false;
         storedPositions = new List<Vector3>();//Create Blank list
         defaultScale = transform.localScale;
-        
+
     }
 
     private void LateUpdate()
@@ -30,7 +32,7 @@ public class FollowPlayer : MonoBehaviour
             storedPositions.Add(playerPos); //Store player position everyFrame
         }
 
-        if(storedPositions.Count > followDistance)
+        if (storedPositions.Count > followDistance)
         {
             Vector3 previousPos = transform.position;
 

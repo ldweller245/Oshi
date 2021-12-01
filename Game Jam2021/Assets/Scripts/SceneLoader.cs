@@ -6,10 +6,9 @@ using UnityEditor;
 
 public class SceneLoader : MonoBehaviour
 {
-    public void LoadScene(SceneAsset scene)
+    public void LoadScene(int scene)
     {
-        SceneManager.LoadScene(scene.name);
+        SceneManager.LoadScene(scene);
         //FindObjectOfType<Audiomanager>().Stop("Main Menu theme");
     }
 }
-

@@ -36,65 +36,72 @@ public class Spider : MonoBehaviour
 
     public void SpiderAction()
     {
-        DialogueManager dialogue = FindObjectOfType<DialogueManager>();
+        if (GameObject.Find("Player").GetComponent<PauseMenu>().isPaused != true)
+        {
+            DialogueManager dialogue = FindObjectOfType<DialogueManager>();
 
-        if (state == START_DIALOGUE1)
-        {
-            dialogue.StartDialogue(dialogue1.dialogue);
-            state = DIALOGUE1;
-        }
-        else if (state == START_DIALOGUE2)
-        {
-            dialogue.StartDialogue(dialogue2.dialogue);
-            state = DIALOGUE2;
-        }
-        else if (state == START_DIALOGUE3)
-        {
-            dialogue.StartDialogue(dialogue3.dialogue);
-            state = DIALOGUE3;
-        }
-        else if (state == START_DIALOGUE4)
-        {
-            dialogue.StartDialogue(dialogue4.dialogue);
-            state = DIALOGUE4;
+            if (state == START_DIALOGUE1)
+            {
+                dialogue.StartDialogue(dialogue1.dialogue);
+                state = DIALOGUE1;
+            }
+            else if (state == START_DIALOGUE2)
+            {
+                dialogue.StartDialogue(dialogue2.dialogue);
+                state = DIALOGUE2;
+            }
+            else if (state == START_DIALOGUE3)
+            {
+                dialogue.StartDialogue(dialogue3.dialogue);
+                state = DIALOGUE3;
+            }
+            else if (state == START_DIALOGUE4)
+            {
+                dialogue.StartDialogue(dialogue4.dialogue);
+                state = DIALOGUE4;
+            }
         }
     }
 
     private void Update()
     {
-        DialogueManager dialogue = FindObjectOfType<DialogueManager>();
-
-        if (!dialogue.DialogueOpen())
+        if (GameObject.Find("Player").GetComponent<PauseMenu>().pauseCheck != true)
         {
-            if (state == DIALOGUE1)
-            {
-                state = START_DIALOGUE2;
+            DialogueManager dialogue = FindObjectOfType<DialogueManager>();
 
-                SetTransform(point1);
-            }
-            else if (state == DIALOGUE2)
+            if (!dialogue.DialogueOpen())
             {
-                state = START_DIALOGUE3;
+                if (state == DIALOGUE1)
+                {
+                    state = START_DIALOGUE2;
 
-                SetTransform(point2);
-                web1.SetActive(true);
-                colliderWeb1.SetActive(true);
-                collider1.SetActive(false);
-            }
-            else if (state == DIALOGUE3)
-            {
-                state = START_DIALOGUE4;
+                    SetTransform(point1);
+                }
+                else if (state == DIALOGUE2)
+                {
+                    state = START_DIALOGUE3;
 
-                SetTransform(point3);
-                web2.SetActive(true);
+                    SetTransform(point2);
+                    web1.SetActive(true);
+                    colliderWeb1.SetActive(true);
+                    collider1.SetActive(false);
+                }
+                else if (state == DIALOGUE3)
+                {
+                    state = START_DIALOGUE4;
+
+                    SetTransform(point3);
+                    web2.SetActive(true);
+                }
+                else if (state == DIALOGUE4)
+                {
+                    web3.SetActive(true);
+                    colliderWeb2.SetActive(true);
+                    collider2.SetActive(false);
+                    Destroy(gameObject);
+                }
             }
-            else if (state == DIALOGUE4)
-            {
-                web3.SetActive(true);
-                colliderWeb2.SetActive(true);
-                collider2.SetActive(false);
-                Destroy(gameObject);
-            }
+
         }
     }
 

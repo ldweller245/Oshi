@@ -61,7 +61,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Paused
+    m_ConditionEvent: paused
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -8837730740980507576}
@@ -86,7 +86,7 @@ AnimatorController:
   m_Name: PauseMenuPanel
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Paused
+  - m_Name: paused
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -141,7 +141,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: Paused
+    m_ConditionEvent: paused
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 471565951219405839}

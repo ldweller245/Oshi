@@ -29,6 +29,10 @@ public class LoadSceneAfterVideo : MonoBehaviour
         {
             levelLoaderString = "Forest";
         }
+        else if(sceneName == "Forest-End")
+        {
+            levelLoaderString = "StartMenu";
+        }
 
 
         video = GetComponent<VideoPlayer>();

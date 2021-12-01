@@ -22,8 +22,10 @@ public class ToggleHeightLevel : MonoBehaviour
             playerTransform = parent;
         }
 
-        if (go == null || !other.gameObject.CompareTag("Player") || playerTransform.position.z == height)
+        if (go == null || !other.gameObject.CompareTag("Player"))
             return;
+
+        Debug.Log(0);
 
         if (enableCollider != null)
         {

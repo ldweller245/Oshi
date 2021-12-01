@@ -83,6 +83,7 @@
      <Compile Include="Assets\Downloaded Resources\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\Scripts\RenderParticlesEffect.cs" />
      <Compile Include="Assets\Downloaded Resources\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\Player\FollowPlayer.cs" />
      <Compile Include="Assets\Downloaded Resources\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\Downloaded Resources\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
@@ -106,10 +107,12 @@
      <Compile Include="Assets\Downloaded Resources\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
      <Compile Include="Assets\UNITYDEMO\Scripts\HideTilemapColliderOnPlay.cs" />
      <Compile Include="Assets\Scripts\NPCs and Interactables\Interactable.cs" />
+     <Compile Include="Assets\woodliceScript.cs" />
      <Compile Include="Assets\Downloaded Resources\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\Scripts\WoodLice.cs" />
      <Compile Include="Assets\Scripts\LoadSceneAfterVideo.cs" />
      <Compile Include="Assets\Scripts\CollectibleScript.cs" />
+     <Compile Include="Assets\CricketScript.cs" />
      <Compile Include="Assets\Scripts\Tilemap\AnimatedTile.cs" />
      <Compile Include="Assets\Scripts\collectedScript.cs" />
      <Compile Include="Assets\Downloaded Resources\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
@@ -123,7 +126,6 @@
      <Compile Include="Assets\Scripts\NPCs and Interactables\BeetleScript.cs" />
      <Compile Include="Assets\Downloaded Resources\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\Scripts\NPCs and Interactables\Centipede.cs" />
-     <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <None Include="Assets\Downloaded Resources\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Downloaded Resources\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Downloaded Resources\Rocks and Boulders 2\Shaders\Blend SM2.shader" />

@@ -171,9 +171,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8ed10978c019c942a48b2461c60a734, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenu: {fileID: 0}
-  pauseKey: 0
+  pauseKey: 112
   isPaused: 0
+  pauseCheck: 0
+  anim: {fileID: 0}
+  characterImage: {fileID: 0}
+  textFrame: {fileID: 0}
 --- !u!50 &2583537197982507442
 Rigidbody2D:
   serializedVersion: 4

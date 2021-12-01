@@ -7,9 +7,10 @@ public class PauseMenu : MonoBehaviour
 {
     private GameObject pauseMenu;
     public KeyCode pauseKey;
-    public static bool isPaused;
-    public Animator anim;
-    public GameObject Dialogue, DialogueManager;
+    public bool isPaused;
+    public bool pauseCheck;
+    public Animator pauseMenuAnim;
+    public GameObject characterImage, textFrame;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,27 +38,27 @@ public class PauseMenu : MonoBehaviour
 
     public void PauseGame()
     {
-        Dialogue.SetActive(false);
-        DialogueManager.SetActive(false);
-        anim.SetBool("Paused", true);
+        characterImage.SetActive(false);
+        textFrame.SetActive(false);
+        pauseMenuAnim.SetBool("paused", true);
         Time.timeScale = 0f;
         isPaused = true;
         AudioSource[] audios = FindObjectsOfType<AudioSource>();
         foreach(AudioSource a in audios)
         {
-            a.Pause();
+            a.volume = a.volume/3;
         }
     }
 
     public void ResumeGame()
     {
-        Dialogue.SetActive(true);
-        DialogueManager.SetActive(true);
-        anim.SetBool("Paused", false);
+        characterImage.SetActive(true);
+        textFrame.SetActive(true);
+        pauseMenuAnim.SetBool("paused", false);
         AudioSource[] audios = FindObjectsOfType<AudioSource>();
         foreach(AudioSource a in audios)
         {
-            a.UnPause();
+            a.volume = a.volume*3;
         }
         Time.timeScale = 1f;
         isPaused = false;
