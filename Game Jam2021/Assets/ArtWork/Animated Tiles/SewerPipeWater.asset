@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0289e9ebb4ba14092e95c94404488c, type: 3}
+  m_Name: SewerPipeWater
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -5146984274282003831, guid: 3c090a84420e3f342b1f8934d266f595, type: 3}
+  - {fileID: 7382372202398662669, guid: 3c090a84420e3f342b1f8934d266f595, type: 3}
+  - {fileID: 5784280008455712076, guid: 3c090a84420e3f342b1f8934d266f595, type: 3}
+  - {fileID: 8988925303683579839, guid: 3c090a84420e3f342b1f8934d266f595, type: 3}
+  - {fileID: 1608771345868397487, guid: 3c090a84420e3f342b1f8934d266f595, type: 3}
+  - {fileID: 7136754579940035003, guid: 3c090a84420e3f342b1f8934d266f595, type: 3}
+  - {fileID: -5367237411475173116, guid: 3c090a84420e3f342b1f8934d266f595, type: 3}
+  - {fileID: -3004028851805951395, guid: 3c090a84420e3f342b1f8934d266f595, type: 3}
+  - {fileID: 744204315117381847, guid: 3c090a84420e3f342b1f8934d266f595, type: 3}
+  - {fileID: -5146728485799798428, guid: 3c090a84420e3f342b1f8934d266f595, type: 3}
+  - {fileID: -1284927903363394066, guid: 3c090a84420e3f342b1f8934d266f595, type: 3}
+  - {fileID: 4319494796129923628, guid: 3c090a84420e3f342b1f8934d266f595, type: 3}
+  - {fileID: -6021239013640328983, guid: 3c090a84420e3f342b1f8934d266f595, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
+  m_AnimationStartTime: 0
+  m_TileColliderType: 0

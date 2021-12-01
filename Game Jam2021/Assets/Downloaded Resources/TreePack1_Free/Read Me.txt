@@ -1,0 +1,8 @@
+Read Me
+
+- Please check the packing tag on the Leaf texture.
+- If packing tag is not set.
+- Set the packing tag in the inspector setting for the Leaf texture.
+- Pass calls will decrease.
+
+- Play the demo scene.

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0289e9ebb4ba14092e95c94404488c, type: 3}
+  m_Name: SewerPuddle
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -9111024324587357560, guid: 3bce43e1f7643bb478f576c7ffbf9900, type: 3}
+  - {fileID: -5349434932403207511, guid: 3bce43e1f7643bb478f576c7ffbf9900, type: 3}
+  - {fileID: 8870082592933647386, guid: 3bce43e1f7643bb478f576c7ffbf9900, type: 3}
+  - {fileID: -2449761957601684715, guid: 3bce43e1f7643bb478f576c7ffbf9900, type: 3}
+  - {fileID: -8479546557354293451, guid: 3bce43e1f7643bb478f576c7ffbf9900, type: 3}
+  - {fileID: -9086234874786116321, guid: 3bce43e1f7643bb478f576c7ffbf9900, type: 3}
+  - {fileID: 540243090396835928, guid: 3bce43e1f7643bb478f576c7ffbf9900, type: 3}
+  - {fileID: -6118170733834168335, guid: 3bce43e1f7643bb478f576c7ffbf9900, type: 3}
+  m_MinSpeed: 5
+  m_MaxSpeed: 5
+  m_AnimationStartTime: 0
+  m_TileColliderType: 0
